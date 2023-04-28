@@ -1,0 +1,70 @@
+:root{
+    --color-txt-nav: #dd26dd
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+/*containerBrand*/
+header .containerBrand{
+    width: 20%;
+    min-width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .containerBrand img{
+    transform: scale (0.55);
+}
+
+/*containerList*/
+header .containerItemsList{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .containerItemsList ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+header .containerItemsList ul li{
+   margin: 10px;
+   color: var(--color-txt-nav);
+}
+
+
+/*containerCart*/
+header .containerCart{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 72px;
+}
+
+header .containerCart .containerLength{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: crosshair;
+
+}

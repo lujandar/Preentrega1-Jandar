@@ -5,7 +5,7 @@
 }
 
 .cardItem{
-    border: 2px solid #f00fd9;
+    
     height: 500px;
     width: 225px;
     padding: 10px;
@@ -19,7 +19,7 @@
 .cardDescription{
         display: flex;
         flex-direction: column;
-        border: 1px solid #6c6b6b;
+       
 }
 
 .cardDescription .title{
@@ -47,7 +47,7 @@
 /* contenedor de button */
 
 .buttons{
-    border: 1px solid #6c6b6b;
+ 
     height: 20%;
     display: flex;
     align-items: center;
@@ -66,3 +66,4 @@
 .buttons #detalles:hover{
     background-color: #f00fd9 ;
 }
+

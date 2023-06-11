@@ -5,14 +5,14 @@ import ButtonDetalles from "./Buttondetalles";
 import ButtonAddCart from "./ButtonAddCart";
 import ImgProducto from "../../img/producto.jpg"
 
-const CardItem = () => {
+const CardItem = (props) => {
     return(
         <div className="cardItem">
-            <Image Image={ImgProducto}/>
+            <Image Image= {props.imagen}/>
             <Description 
-                title="Servilleta de Tusor"
-                cantidad = {5}
-                precio = {350}
+                title= {props.title}
+                cantidad = {props.cantidad}
+                precio = {props.precio}
             />
             <div className="buttons"> 
             <ButtonDetalles />

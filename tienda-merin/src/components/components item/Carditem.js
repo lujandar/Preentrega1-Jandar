@@ -8,7 +8,9 @@ import ImgProducto from "../../img/producto.jpg"
 const CardItem = (props) => {
     return(
         <div className="cardItem">
-            <Image Image= {props.imagen}/>
+            <Image 
+                Image= {props.imagen}
+            />
             <Description 
                 title= {props.title}
                 cantidad = {props.cantidad}
